@@ -1,7 +1,7 @@
 # Relectron Boilerplate
 **A barebones Electron boilerplate with Webpack 2, React, and SASS (Normalize.css) support**
 
-![alt text](https://github.com:mindofjonas/relectron-boilerplate/raw/master/src/assets/images/relectron-logo.png "Relectron Boilerplate with Webpack 2, React, and SASS (Normalize.css) support")
+![alt text](https://github.com/mindofjonas/relectron-boilerplate/raw/master/src/assets/images/relectron-logo.jpg "Relectron Boilerplate with Webpack 2, React, and SASS (Normalize.css) support")
 
 This is meant to be a (very) barebones starter for Electron projects with React. It provides a solid base for prototyping and leaves things like routing, state management, unit testing, and building for production to be determined for the individual project.
 
@@ -10,7 +10,7 @@ For more full featured boilerplates see the [Electron React Boilerplate](https:/
 ## Quick start:
 Clone the repository
 ```
-git clone --depth=1 git@github.com:mindofjonas/relectron-boilerplate.git
+git clone git@github.com:mindofjonas/relectron-boilerplate.git
 ```
 Install dependencies
 ```
@@ -19,8 +19,11 @@ npm install
 ```
 Development
 ```
-npm run dev // Starts webpack dev server with live reloading
-npm run start // Starts Electron 
+// Starts webpack dev server with live reloading
+npm run dev 
+
+// Starts Electron 
+npm run start
 ```
 
 ## License
